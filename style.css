@@ -1,0 +1,62 @@
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style>
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0.1px;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+
+
+}
+
+.hero__container {
+  background-color: #fff;
+  width: 300px;
+  height: 430px;
+  margin: 100px auto;
+  border-radius: 10px;
+
+}
+
+.hero__picture {
+  width: 90%;
+  height: 250px;
+  margin: 12px auto;
+  background-image: url('/FrontEndMentor/qr-code-component-main/images/image-qr-code.png');
+  border-radius: 10px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.hero__text {
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.hero__title {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 15px
+}
+
+.hero__paragraph {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
