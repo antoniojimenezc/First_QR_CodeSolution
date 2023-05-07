@@ -25,7 +25,7 @@ body {
   width: 90%;
   height: 250px;
   margin: 12px auto;
-  background-image: url('images/image-qr-code.png');
+  background-image: url(images/image-qr-code.png);
   border-radius: 10px;
   background-position: center;
   background-size: cover;
